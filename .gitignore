@@ -21,5 +21,6 @@ coverage/
 *.swp
 *.swo
 *.md
+!README.md
 .impeccable/*
 .impeccable.lock
