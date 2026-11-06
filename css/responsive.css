@@ -1,1 +1,342 @@
-@media(max-width:768px){body{font-size:14px;}}
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 68px;
+  }
+
+  body {
+    font-size: 13px;
+  }
+
+  .main-content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .topbar {
+    min-height: 58px;
+    gap: 8px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .topbar-start {
+    gap: 8px;
+  }
+
+  .breadcrumb {
+    gap: 6px;
+    font-size: 7px;
+  }
+
+  .topbar-actions {
+    gap: 5px;
+  }
+
+  .topbar-actions .button {
+    min-height: 35px;
+    gap: 5px;
+    padding: 0 8px;
+    font-size: 9px;
+  }
+
+  .topbar-actions .button-quiet {
+    display: none;
+  }
+
+  .file-mark {
+    width: 20px;
+    height: 17px;
+    font-size: 7px;
+  }
+
+  .topbar-actions .button-primary {
+    font-size: 0;
+  }
+
+  .topbar-actions .button-primary > span {
+    font-size: 14px;
+  }
+
+  .hero-heading {
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  .hero-heading h1 {
+    font-size: clamp(35px, 10vw, 48px);
+  }
+
+  .hero-copy {
+    max-width: 460px;
+    font-size: 11px;
+  }
+
+  .hero-index {
+    min-width: 53px;
+    font-size: 6px;
+  }
+
+  .hero-index strong {
+    font-size: 32px;
+  }
+
+  .budget-hero {
+    grid-template-columns: 1fr auto;
+    gap: 14px 10px;
+    padding: 16px;
+  }
+
+  .budget-hero-copy h2 {
+    font-size: 14px;
+  }
+
+  .budget-hero-copy p {
+    max-width: 210px;
+    font-size: 8px;
+  }
+
+  .budget-total strong {
+    font-size: 20px;
+  }
+
+  .budget-meter-wrap {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .budget-side-note {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    grid-template-columns: auto 1fr 1fr;
+    justify-items: start;
+    gap: 5px 9px;
+    padding-top: 9px;
+    border-top: 1px solid var(--line);
+    font-size: 8px;
+  }
+
+  .side-note-label {
+    grid-column: 1 / -1;
+  }
+
+  .kpi-grid {
+    gap: 7px;
+    margin-top: 8px;
+  }
+
+  .kpi-card {
+    min-height: 73px;
+    gap: 8px;
+    padding: 9px;
+  }
+
+  .kpi-icon {
+    width: 29px;
+    height: 29px;
+    flex-basis: 29px;
+    border-radius: 7px;
+    font-size: 7px;
+  }
+
+  .kpi-card strong {
+    font-size: 16px;
+  }
+
+  .kpi-card strong small {
+    font-size: 8px;
+  }
+
+  .kpi-detail {
+    font-size: 7px;
+  }
+
+  .component-panel,
+  .spend-panel {
+    padding: 15px;
+  }
+
+  .panel-heading h2 {
+    font-size: 12px;
+  }
+
+  .route-track {
+    margin: 25px 0 19px;
+  }
+
+  .route-track::before {
+    right: 7%;
+    left: 7%;
+  }
+
+  .compatibility-note {
+    align-items: flex-start;
+    font-size: 8px;
+  }
+
+  .spend-chart {
+    grid-template-columns: 1fr;
+    margin-top: 14px;
+  }
+
+  .section {
+    padding-top: 34px;
+  }
+
+  .report-section {
+    margin-top: 34px;
+    padding-top: 28px;
+  }
+
+  .section-heading {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+
+  .section-heading h2 {
+    font-size: 22px;
+  }
+
+  .section-heading > p {
+    grid-column: 2;
+    font-size: 9px;
+  }
+
+  .workload-grid,
+  .needs-grid,
+  .justification-grid,
+  .budget-detail-grid,
+  .source-links {
+    grid-template-columns: 1fr;
+  }
+
+  .workload-card {
+    padding: 15px;
+  }
+
+  .workload-card h3 {
+    font-size: 16px;
+  }
+
+  .workload-card > p {
+    min-height: 0;
+    font-size: 9px;
+  }
+
+  .workload-specs {
+    gap: 5px;
+  }
+
+  .workload-specs b {
+    font-size: 7px;
+  }
+
+  .needs-grid {
+    gap: 0;
+    padding: 0;
+  }
+
+  .need-row {
+    grid-template-columns: 24px minmax(0, 1fr);
+  }
+
+  .need-tag {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: 1px;
+  }
+
+  .table-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .search-field {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .filter-field {
+    flex: 1;
+  }
+
+  .filter-field select {
+    max-width: none;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .table-count {
+    font-size: 8px;
+  }
+
+  .justification-card {
+    min-height: 0;
+    padding: 15px;
+  }
+
+  .budget-calculation,
+  .budget-assumptions {
+    padding: 13px;
+  }
+
+  .calculation-row {
+    gap: 8px;
+    font-size: 9px;
+  }
+
+  .sources-panel {
+    padding: 14px;
+  }
+
+  .source-links {
+    gap: 0;
+  }
+
+  .report-footer {
+    flex-direction: column;
+    gap: 6px;
+    font-size: 7px;
+  }
+
+  .dialog-image-wrap {
+    min-height: 190px;
+    padding: 18px;
+  }
+
+  .dialog-image-wrap img {
+    max-height: 260px;
+  }
+
+  .dialog-copy {
+    padding: 17px;
+  }
+
+  .dialog-copy h2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 380px) {
+  .topbar-actions .button-secondary {
+    display: none;
+  }
+
+  .budget-total strong {
+    font-size: 18px;
+  }
+
+  .kpi-card {
+    gap: 6px;
+    padding: 7px;
+  }
+
+  .kpi-icon {
+    width: 26px;
+    height: 26px;
+    flex-basis: 26px;
+    font-size: 6px;
+  }
+}

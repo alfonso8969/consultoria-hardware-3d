@@ -1,1 +1,477 @@
-placeholder
+<!doctype html>
+    <html lang="es"><head><meta charset="utf-8"><title>Informe de consultoría de hardware</title>
+    <style>
+  body { font-family: Arial, sans-serif; color: #172321; line-height: 1.45; }
+  h1, h2, h3 { color: #12362f; }
+  h1 { font-size: 24pt; }
+  h2 { margin-top: 24pt; font-size: 17pt; border-bottom: 1px solid #9db7ae; padding-bottom: 5pt; }
+  h3 { font-size: 12pt; }
+  p, li { font-size: 10pt; }
+  table { width: 100%; border-collapse: collapse; margin: 10pt 0; }
+  th, td { border: 1px solid #aebbb5; padding: 6pt; text-align: left; }
+  th { background: #e8f0ec; }
+  img { max-width: 90px; max-height: 70px; }
+  a { color: #126b5a; text-decoration: none; }
+  .sidebar, .topbar, .table-toolbar, .product-dialog, .toast, .text-link { display: none !important; }
+  .product-image-trigger { border: 0; background: transparent; padding: 0; }
+  .product-image-trigger.is-fallback { display: none !important; }
+</style></head>
+    <body><h1>Consultoría de hardware para edición y 3D</h1>
+    <p>Propuesta de estación · consulta de precios: 06/11/2026 · presupuesto máximo: 1.395,00 € IVA incluido.</p>
+
+          <section class="section overview-section" id="overview" aria-labelledby="page-title">
+            <div class="eyebrow"><span class="eyebrow-mark"></span> PROPUESTA DE ESTACIÓN · ESPAÑA</div>
+            <div class="hero-heading">
+              <div>
+                <h1 id="page-title">El presupuesto<br><span>marca la ruta.</span></h1>
+                <p class="hero-copy">Una configuración equilibrada para montar, editar y renderizar. Cada decisión es compatible, tiene fuente y deja el margen a la vista.</p>
+              </div>
+              <div class="hero-index" aria-hidden="true"><span>ESTUDIO</span><strong>04</strong><span>4K / 3D</span></div>
+            </div>
+
+            <div class="budget-hero" aria-labelledby="budget-title">
+              <div class="budget-hero-copy">
+                <div class="budget-overline"><span class="budget-pin"></span> LÍMITE TOTAL · IVA INCLUIDO</div>
+                <h2 id="budget-title">Control de presupuesto</h2>
+                <p id="budget-status">Dentro del límite con los portes mínimos publicados.</p>
+              </div>
+              <div class="budget-total">
+                <span>PROPUESTA TOTAL</span>
+                <strong id="budget-total">1.336,72&nbsp;€</strong>
+                <span class="budget-limit">de <b>1.395,00 €</b></span>
+              </div>
+              <div class="budget-meter-wrap">
+                <div class="budget-meter" role="progressbar" aria-label="Porcentaje del presupuesto utilizado" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95,8">
+                  <span id="budget-meter-fill" style="width: 95.8222%;"></span>
+                </div>
+                <div class="budget-meter-labels">
+                  <span><b id="budget-used-percent">95,8 %</b> utilizado</span>
+                  <span>Margen <b id="budget-remaining">58,28&nbsp;€</b></span>
+                </div>
+              </div>
+              <div class="budget-side-note"><span class="side-note-label">DESGLOSE</span><span>1.321,27 € en productos</span><span>+ 15,45 € portes mínimos</span></div>
+            </div>
+
+            <div class="kpi-grid" aria-label="Resumen de la propuesta">
+              <article class="kpi-card">
+                <span class="kpi-icon kpi-icon-amber" aria-hidden="true">CPU</span>
+                <div><span class="kpi-label">PROCESADOR</span><strong id="kpi-cpu">8 <small>núcleos</small></strong><span class="kpi-detail">16 hilos · boost 4,6 GHz</span></div>
+              </article>
+              <article class="kpi-card">
+                <span class="kpi-icon kpi-icon-teal" aria-hidden="true">RAM</span>
+                <div><span class="kpi-label">MEMORIA</span><strong id="kpi-ram">32 <small>GB</small></strong><span class="kpi-detail">DDR4-3200 · doble canal</span></div>
+              </article>
+              <article class="kpi-card">
+                <span class="kpi-icon kpi-icon-violet" aria-hidden="true">GPU</span>
+                <div><span class="kpi-label">GRÁFICA</span><strong id="kpi-gpu">8 <small>GB</small></strong><span class="kpi-detail">GDDR7 · 3.840 CUDA</span></div>
+              </article>
+              <article class="kpi-card">
+                <span class="kpi-icon kpi-icon-blue" aria-hidden="true">SSD</span>
+                <div><span class="kpi-label">ALMACENAMIENTO</span><strong id="kpi-storage">1 <small>TB</small></strong><span class="kpi-detail">NVMe PCIe 4.0 · Gen4</span></div>
+              </article>
+            </div>
+
+            <div class="overview-grid reveal is-visible">
+              <section class="panel component-panel" aria-labelledby="route-title">
+                <div class="panel-heading">
+                  <div><span class="section-kicker">EL RECORRIDO</span><h2 id="route-title">Una ruta de componentes compatibles</h2></div>
+                  <a class="text-link" href="#components">Ver configuración <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="route-track" aria-label="Secuencia de componentes del sistema">
+                  <div class="route-step"><span class="route-step-number">01</span><span class="route-step-dot"></span><strong>CPU</strong><small>AM4</small></div>
+                  <div class="route-step"><span class="route-step-number">02</span><span class="route-step-dot"></span><strong>Placa</strong><small>B550</small></div>
+                  <div class="route-step"><span class="route-step-number">03</span><span class="route-step-dot"></span><strong>RAM</strong><small>32 GB</small></div>
+                  <div class="route-step"><span class="route-step-number">04</span><span class="route-step-dot"></span><strong>GPU</strong><small>CUDA</small></div>
+                  <div class="route-step"><span class="route-step-number">05</span><span class="route-step-dot"></span><strong>NVMe</strong><small>Gen4</small></div>
+                </div>
+                <div class="compatibility-note"><span class="check-mark" aria-hidden="true">✓</span><span><strong>Encaje de plataforma</strong> AM4 · DDR4 · PCIe 4.0 · PSU 650 W</span></div>
+              </section>
+
+              <aside class="panel spend-panel" aria-labelledby="spend-title">
+                <div class="panel-heading compact">
+                  <div><span class="section-kicker">INVERSIÓN</span><h2 id="spend-title">Dónde va cada euro</h2></div>
+                  <span class="panel-meta">Productos</span>
+                </div>
+                <div class="spend-chart" id="spend-chart" aria-label="Distribución del coste por categoría">
+      <div class="spend-item">
+        <span class="spend-item-label">Memoria + GPU</span>
+        <span class="spend-item-track" aria-hidden="true"><span style="width:50.545308680284876%"></span></span>
+        <span class="spend-item-value">667,84&nbsp;€</span>
+      </div>
+
+      <div class="spend-item">
+        <span class="spend-item-label">Plataforma</span>
+        <span class="spend-item-track" aria-hidden="true"><span style="width:23.83918502652751%"></span></span>
+        <span class="spend-item-value">314,98&nbsp;€</span>
+      </div>
+
+      <div class="spend-item">
+        <span class="spend-item-label">Pantalla + control</span>
+        <span class="spend-item-track" aria-hidden="true"><span style="width:10.291613371983017%"></span></span>
+        <span class="spend-item-value">135,98&nbsp;€</span>
+      </div>
+
+      <div class="spend-item">
+        <span class="spend-item-label">Energía + caja</span>
+        <span class="spend-item-track" aria-hidden="true"><span style="width:9.98887434059655%"></span></span>
+        <span class="spend-item-value">131,98&nbsp;€</span>
+      </div>
+
+      <div class="spend-item">
+        <span class="spend-item-label">Almacenamiento</span>
+        <span class="spend-item-track" aria-hidden="true"><span style="width:5.335018580608051%"></span></span>
+        <span class="spend-item-value">70,49&nbsp;€</span>
+      </div>
+    </div>
+                <div class="spend-total-row"><span>Subtotal de productos</span><strong id="products-subtotal">1.321,27&nbsp;€</strong></div>
+              </aside>
+            </div>
+          </section>
+
+          <section class="section report-section reveal" id="needs" aria-labelledby="needs-title">
+            <div class="section-heading">
+              <div class="section-number">01 <span>/ A</span></div>
+              <div><span class="section-kicker">ANÁLISIS DE NECESIDADES</span><h2 id="needs-title">Dos aplicaciones. Una estación.</h2></div>
+              <p>Los requisitos mínimos permiten arrancar; el trabajo 4K y las escenas complejas necesitan margen real.</p>
+            </div>
+
+            <div class="workload-grid">
+              <article class="workload-card premiere-card">
+                <div class="workload-topline"><span class="workload-badge">01</span><span class="workload-label">MONTAJE · COLOR · EXPORTACIÓN</span></div>
+                <h3>Adobe Premiere Pro</h3>
+                <p>Para edición 4K fluida, Adobe recomienda al menos ocho núcleos, 32 GB de RAM o más en Windows y GPU con 4 GB de VRAM como base recomendada.</p>
+                <div class="workload-specs">
+                  <div><span>CPU</span><b>8 núcleos o más</b></div>
+                  <div><span>Memoria</span><b>32 GB o más</b></div>
+                  <div><span>GPU</span><b>4 GB VRAM mínimo recomendado</b></div>
+                </div>
+                <a class="source-inline" href="https://helpx.adobe.com/es/premiere/desktop/get-started/technical-requirements/processor-memory-and-gpu-recommendations.html" target="_blank" rel="noopener noreferrer">Recomendaciones oficiales de Adobe <span aria-hidden="true">↗</span></a>
+              </article>
+
+              <article class="workload-card max-card">
+                <div class="workload-topline"><span class="workload-badge">02</span><span class="workload-label">MODELADO · ILUMINACIÓN · RENDER</span></div>
+                <h3>Autodesk 3ds Max</h3>
+                <p>El modelado y el viewport valoran la respuesta por núcleo; el render por CPU escala con hilos. Arnold GPU acelera con tarjetas NVIDIA compatibles, pero la escena debe caber en VRAM.</p>
+                <div class="workload-specs">
+                  <div><span>CPU</span><b>Multinúcleo x64 · SSE4.2</b></div>
+                  <div><span>Memoria</span><b>32 GB para escenas de trabajo</b></div>
+                  <div><span>GPU</span><b>CUDA / OptiX · VRAM según escena</b></div>
+                </div>
+                <a class="source-inline" href="https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/System-requirements-for-Autodesk-3ds-Max-2026.html" target="_blank" rel="noopener noreferrer">Requisitos oficiales de 3ds Max 2026 <span aria-hidden="true">↗</span></a>
+              </article>
+            </div>
+
+            <div class="needs-grid">
+              <article class="need-row"><span class="need-index">A1</span><div><h3>Procesador</h3><p>Frecuencia alta para interacción y modelado; más núcleos/hilos para render CPU, codificación y multitarea. La propuesta ofrece 8C/16T, 3,4–4,6 GHz y TDP de 65 W.</p></div><span class="need-tag">8C / 16T</span></article>
+              <article class="need-row"><span class="need-index">A2</span><div><h3>Memoria RAM</h3><p>32 GB es el punto de partida práctico para 4K. Un kit 2 × 16 GB DDR4-3200 activa doble canal; 64 GB es una ampliación razonable si las escenas, texturas o efectos crecen.</p></div><span class="need-tag">DUAL CHANNEL</span></article>
+              <article class="need-row"><span class="need-index">A3</span><div><h3>Tarjeta gráfica</h3><p>CUDA/NVENC acelera efectos y exportación en Premiere; CUDA/OptiX permite Arnold GPU. 8 GB GDDR7 sirven para empezar, pero limitan escenas grandes frente a una GPU de 12–16 GB.</p></div><span class="need-tag">8 GB VRAM</span></article>
+              <article class="need-row"><span class="need-index">A4</span><div><h3>Almacenamiento</h3><p>NVMe Gen4 reduce esperas de carga y transferencia. Separar proyecto, medios y caché en carpetas ayuda a gestionar el flujo, pero una sola unidad no elimina la contención física de E/S.</p></div><span class="need-tag">NVMe GEN4</span></article>
+            </div>
+          </section>
+
+          <section class="section report-section reveal" id="components" aria-labelledby="components-title">
+            <div class="section-heading">
+              <div class="section-number">02 <span>/ B</span></div>
+              <div><span class="section-kicker">CONFIGURACIÓN Y PERIFÉRICOS</span><h2 id="components-title">La lista de montaje</h2></div>
+              <p>Precios IVA incluido consultados en PcComponentes. Pulsa una imagen para ampliarla; abre cada ficha para comprar.</p>
+            </div>
+            <div class="table-toolbar">
+              <label class="search-field">
+                <span class="visually-hidden">Buscar componentes</span>
+                <span class="search-icon" aria-hidden="true">⌕</span>
+                <input id="component-search" type="search" placeholder="Buscar por componente o modelo" autocomplete="off">
+              </label>
+              <label class="filter-field" for="category-filter"><span>Filtrar por</span>
+                <select id="category-filter">
+                  <option value="all">Todas las categorías</option>
+                  <option value="core">Plataforma</option>
+                  <option value="memory">Memoria y GPU</option>
+                  <option value="storage">Almacenamiento</option>
+                  <option value="cooling">Refrigeración y caja</option>
+                  <option value="peripherals">Periféricos</option>
+                </select>
+              </label>
+              <span class="table-count" id="table-count">11 elementos</span>
+            </div>
+            <div class="table-scroll">
+              <table class="component-table">
+                <thead><tr><th scope="col">Componente</th><th scope="col">Modelo y característica clave</th><th scope="col">Tienda</th><th scope="col" class="price-heading">Precio</th></tr></thead>
+                <tbody id="component-rows">
+    <tr>
+      <td>
+        <div class="product-cell">
+          <span class="product-image-trigger is-fallback" aria-hidden="true">PRO</span>
+          <span class="product-cell-copy"><strong>Procesador</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">AMD Ryzen 7 5700X<span class="product-spec">AM4 · 8 núcleos / 16 hilos · 3,4–4,6 GHz · 65 W · sin disipador</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/procesador-amd-ryzen-7-5700x-3-4ghz-box-sin-ventilador" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">214,99&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="motherboard" aria-label="Ampliar imagen de MSI B550M PRO-VDH WIFI">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/30/302210/1662-msi-b550m-pro-vdh-wifi.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Placa base</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">MSI B550M PRO-VDH WIFI<span class="product-spec">Socket AM4 · micro-ATX · DDR4 dual-channel · 2 × M.2 · Wi-Fi 5</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/msi-b550m-pro-vdh-wifi" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">99,99&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="ram" aria-label="Ampliar imagen de Forgeon Cyclone PLUS V2">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/1093/10931674/1348-forgeon-cyclone-plus-v2-ddr4-3200-mhz-32gb-2x16gb-cl16-negra.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Memoria RAM</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">Forgeon Cyclone PLUS V2<span class="product-spec">32 GB (2 × 16 GB) · DDR4-3200 · CL16 · doble canal</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/memoria-ram-forgeon-cyclone-plus-v2-ddr4-3200-mhz-32gb-2x16gb-cl16-negra" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">279,90&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="gpu" aria-label="Ampliar imagen de PNY GeForce RTX 5060 Dual Fan OC">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/1087/10875413/1544-pny-geforce-rtx-5060-dual-fan-oc-8gb-gddr7-reflex-2-rtx-ai-dlss4-296d3f22-56f4-464b-b9a5-b97fc1ef99ea.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Tarjeta gráfica</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">PNY GeForce RTX 5060 Dual Fan OC<span class="product-spec">8 GB GDDR7 · 3.840 CUDA · 145 W · 1 × 8 pines · PSU recomendada 550 W</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/tarjeta-grafica-pny-geforce-rtx-5060-dual-fan-oc-8gb-gddr7-reflex-2-rtx-ai-dlss4" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">387,94&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="ssd" aria-label="Ampliar imagen de WD Blue SN580 1 TB">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/1074/10747400/1303-wd-blue-sn580-1tb-ssd-m2-pcie-40-nvme.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Almacenamiento</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">WD Blue SN580 1 TB<span class="product-spec">M.2 2280 · NVMe PCIe 4.0 · hasta 4.150 MB/s de lectura anunciada</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/disco-duro-wd-blue-sn580-1tb-disco-ssd-4150mb-s-nvme-pcie-40-m2-gen4-16gt-s" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">70,49&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="psu" aria-label="Ampliar imagen de MSI MAG A650BN">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/66/661993/1661-msi-mag-a650bn-650w-80-plus-bronze.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Fuente de alimentación</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">MSI MAG A650BN<span class="product-spec">650 W · 80 PLUS Bronze · formato ATX · cables fijos</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/msi-mag-a650bn-650w-80-plus-bronze" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">61,99&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="cooler" aria-label="Ampliar imagen de Tempest Cooler 4Pipes 120 mm Basic">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/51/516902/4614-tempest-basic-cooler-4pipes-ventilador-cpu-120mm-especificaciones.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Refrigeración</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">Tempest Cooler 4Pipes 120 mm Basic<span class="product-spec">4 heatpipes · ventilador de 120 mm · compatible con AM4</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/tempest-cooler-4pipes-120mm-ventilador-cpu-basic" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">30,00&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="case" aria-label="Ampliar imagen de Tempest Airflow Garrison ARGB Negra">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/1080/10805372/1159-tempest-garrison-argb-atx-cristal-templado-usb-30-negra.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Caja / chasis</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">Tempest Airflow Garrison ARGB Negra<span class="product-spec">ATX / micro-ATX · frontal mallado · 4 ventiladores ARGB · GPU hasta 330 mm</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/torre-pc-tempest-airflow-garrison-argb-atx-negra" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">39,99&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="monitor" aria-label="Ampliar imagen de ASUS VA27AQ">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/1098/10984717/1372-monitor-asus-va27aq-27-qhd-75hz-ips-hdr10-altavoces-1ms-montable-en-pared-e4b5dcb4-c55b-4137-9a43-31d843327210.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Monitor principal</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">ASUS VA27AQ<span class="product-spec">27″ · 2.560 × 1.440 · IPS · 75 Hz · 99 % sRGB · HDR10</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/monitor-asus-va27aq-27-qhd-75hz-ips-hdr10-altavoces-1ms-montable-en-pared" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">115,99&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+
+      <button class="product-image-trigger" type="button" data-image-open="input" aria-label="Ampliar imagen de Owlotech MK300 Combo Wireless">
+        <img src="https://thumb.pccomponentes.com/w-530-530/articles/1092/10925349/1713-owlotech-mk300-combo-wireless-teclado-raton-alfombrilla-negros-comprar.jpg" alt="" loading="lazy" decoding="async">
+      </button>
+
+          <span class="product-cell-copy"><strong>Teclado y ratón</strong><small>Producto seleccionado</small></span>
+        </div>
+      </td>
+      <td class="product-model">Owlotech MK300 Combo Wireless<span class="product-spec">Teclado español · ratón inalámbrico 2,4 GHz · alfombrilla incluida</span></td>
+      <td><a class="store-link" href="https://www.pccomponentes.com/owlotech-mk300-combo-wireless-teclado-plus-raton-plus-alfombrilla-negros" target="_blank" rel="noopener noreferrer">PcComponentes <span aria-hidden="true">↗</span></a></td>
+      <td class="price-cell">19,99&nbsp;€</td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="product-cell">
+          <span class="product-image-trigger is-fallback" aria-hidden="true">—</span>
+          <span class="product-cell-copy"><strong>Otros / accesorios</strong><small>Partida informativa</small></span>
+        </div>
+      </td>
+      <td class="product-model">No se añade accesorio adicional<span class="product-spec">0,00 € · sin sistema operativo ni licencias de software</span></td>
+      <td><span class="muted-dash">—</span></td>
+      <td class="price-cell">0,00&nbsp;€</td>
+    </tr>
+  </tbody>
+                <tfoot>
+                  <tr><td colspan="3">Subtotal de productos</td><td class="price-cell" id="table-subtotal">1.321,27&nbsp;€</td></tr>
+                  <tr><td colspan="3">Portes mínimos publicados</td><td class="price-cell">15,45 €</td></tr>
+                  <tr class="table-total"><td colspan="3">TOTAL CON IVA</td><td class="price-cell" id="table-total">1.336,72&nbsp;€</td></tr>
+                </tfoot>
+              </table>
+            </div>
+            <p class="table-footnote"><span class="note-mark">i</span> La imagen del procesador es un icono de categoría porque no se pudo confirmar una foto de SKU accesible; consulta la ficha enlazada para verificar el artículo exacto.</p>
+          </section>
+
+          <section class="section report-section reveal" id="justification" aria-labelledby="justification-title">
+            <div class="section-heading">
+              <div class="section-number">03 <span>/ C</span></div>
+              <div><span class="section-kicker">JUSTIFICACIÓN TÉCNICA</span><h2 id="justification-title">Por qué encaja el conjunto</h2></div>
+              <p>La selección prioriza estabilidad y presupuesto; los límites de VRAM, color y almacenamiento quedan declarados.</p>
+            </div>
+            <div class="justification-grid">
+              <article class="justification-card">
+                <span class="justification-index">C1 / CÁLCULO</span>
+                <h3>CPU y GPU: reparto de carga</h3>
+                <p>El Ryzen 7 5700X combina 8 núcleos y 16 hilos para render por CPU, multitarea y exportaciones, con boost de 4,6 GHz para respuesta interactiva. La RTX 5060 aporta 3.840 CUDA cores, Tensor Cores de quinta generación y NVENC para los tramos acelerados por GPU.</p>
+                <p>La GPU NVIDIA mantiene compatibilidad con CUDA/OptiX en el flujo Arnold GPU. Sus 8 GB son una concesión: si la escena no cabe en VRAM, habrá que reducir texturas, usar render CPU o ampliar la tarjeta.</p>
+                <div class="fact-line"><span>CPU · 65 W</span><span>GPU · 145 W</span><span>PCIe 4.0 ×16</span></div>
+              </article>
+              <article class="justification-card">
+                <span class="justification-index">C2 / ARCHIVO</span>
+                <h3>1 TB NVMe Gen4, con orden</h3>
+                <p>El WD Blue SN580 alcanza hasta 4.150 MB/s de lectura anunciada. El presupuesto deja una sola unidad rápida: sistema y aplicaciones, proyectos/medios activos y caché de Premiere irán en carpetas separadas, no en discos independientes.</p>
+                <p>Conviene conservar espacio libre y añadir más adelante un segundo NVMe para medios o caché. La separación física reduce competencia por E/S; la separación lógica actual solo facilita la gestión.</p>
+                <div class="fact-line"><span>M.2 2280</span><span>PCIe 4.0</span><span>Hasta 4.150 MB/s</span></div>
+              </article>
+              <article class="justification-card">
+                <span class="justification-index">C3 / VISUALIZACIÓN</span>
+                <h3>QHD IPS para un timeline amplio</h3>
+                <p>El ASUS VA27AQ ofrece 27 pulgadas, 2.560 × 1.440, panel IPS, 75 Hz y cobertura declarada del 99 % sRGB. Da más espacio de interfaz que Full HD y ángulos de visión adecuados para edición general.</p>
+                <p>No se declara cobertura DCI-P3 ni calibración de fábrica: no debe tratarse como monitor de masterización. El combo inalámbrico Owlotech cubre teclado, ratón y alfombrilla sin consumir el margen en periféricos de alta gama.</p>
+                <div class="fact-line"><span>27″ · QHD</span><span>99 % sRGB</span><span>IPS · 75 Hz</span></div>
+              </article>
+              <article class="justification-card">
+                <span class="justification-index">C4 / ESTABILIDAD</span>
+                <h3>650 W y disipación por aire</h3>
+                <p>La RTX 5060 tiene un TDP de 145 W y recomienda una fuente de 550 W; la MSI MAG A650BN de 650 W 80+ Bronze deja margen para CPU, placa, unidades y ventiladores. No se plantea overclock.</p>
+                <p>El 5700X tiene TDP de 65 W y no incluye disipador. El Tempest de cuatro heatpipes y 120 mm es una opción económica para carga sostenida moderada; revisar temperaturas/ruido en render y mejorar el cooler si hay throttling o ambiente cálido.</p>
+                <div class="fact-line"><span>650 W</span><span>80+ Bronze</span><span>Flujo frontal de malla</span></div>
+              </article>
+            </div>
+            <div class="tradeoff-banner"><span class="tradeoff-icon" aria-hidden="true">↗</span><p><strong>Mejora prioritaria a futuro:</strong> ampliar a 64 GB de RAM para escenas grandes y sumar un segundo NVMe dedicado a media/caché. Para render GPU complejo, la prioridad sería una tarjeta NVIDIA con 12–16 GB de VRAM; el precio actual de esa mejora no cabe de forma responsable en este presupuesto.</p></div>
+          </section>
+
+          <section class="section report-section budget-section reveal" id="budget" aria-labelledby="budget-section-title">
+            <div class="section-heading">
+              <div class="section-number">04 <span>/ D</span></div>
+              <div><span class="section-kicker">CONTROL PRESUPUESTARIO Y FUENTES</span><h2 id="budget-section-title">Margen comprobable</h2></div>
+              <p>El techo no se supera. El saldo se calcula con el precio de producto y el porte mínimo que muestra cada ficha.</p>
+            </div>
+            <div class="budget-detail-grid">
+              <div class="budget-calculation panel">
+                <div class="calculation-row"><span>Productos · IVA incluido</span><strong id="detail-products">1.321,27&nbsp;€</strong></div>
+                <div class="calculation-row"><span>Disipador · envío desde</span><strong>3,95 €</strong></div>
+                <div class="calculation-row"><span>Caja · envío desde</span><strong>6,25 €</strong></div>
+                <div class="calculation-row"><span>Combo · envío desde</span><strong>5,25 €</strong></div>
+                <div class="calculation-row calculation-total"><span>Total de referencia</span><strong id="detail-total">1.336,72&nbsp;€</strong></div>
+                <div class="calculation-row calculation-margin"><span>Margen exacto frente a 1.395,00 €</span><strong id="detail-margin">58,28&nbsp;€</strong></div>
+              </div>
+              <aside class="budget-assumptions">
+                <span class="section-kicker">LECTURA DE LA CIFRA</span>
+                <h3>Margen restante: 58,28 €</h3>
+                <p>Es exacto respecto a los precios de producto y portes mínimos publicados en la consulta del 06/11/2026. La tienda puede recalcular el envío al introducir el código postal; confirma el total final antes de comprar.</p>
+                <p>Se asume entrega peninsular. No se incluyen licencias de Windows, Premiere Pro, 3ds Max, instalación ni accesorios adicionales. La disponibilidad y los precios pueden cambiar.</p>
+              </aside>
+            </div>
+
+            <div class="sources-panel panel">
+              <div class="panel-heading">
+                <div><span class="section-kicker">FUENTES OFICIALES</span><h3>Requisitos y especificaciones</h3></div>
+                <span class="source-stamp">CONSULTA · 06/11/2026</span>
+              </div>
+              <div class="source-links" id="source-links">
+    <a href="https://helpx.adobe.com/es/premiere/desktop/get-started/technical-requirements/processor-memory-and-gpu-recommendations.html" target="_blank" rel="noopener noreferrer">
+      <span>Adobe · Recomendaciones de procesador, memoria y GPU para Premiere</span><span aria-hidden="true">↗</span>
+    </a>
+
+    <a href="https://helpx.adobe.com/es/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html" target="_blank" rel="noopener noreferrer">
+      <span>Adobe · Requisitos técnicos de Premiere</span><span aria-hidden="true">↗</span>
+    </a>
+
+    <a href="https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/System-requirements-for-Autodesk-3ds-Max-2026.html" target="_blank" rel="noopener noreferrer">
+      <span>Autodesk · Requisitos de 3ds Max 2026</span><span aria-hidden="true">↗</span>
+    </a>
+
+    <a href="https://www.autodesk.com/products/arnold/product-details" target="_blank" rel="noopener noreferrer">
+      <span>Autodesk Arnold · Renderizado GPU</span><span aria-hidden="true">↗</span>
+    </a>
+
+    <a href="https://www.nvidia.com/en-me/geforce/graphics-cards/50-series/rtx-5060-family/" target="_blank" rel="noopener noreferrer">
+      <span>NVIDIA · Especificaciones RTX 5060</span><span aria-hidden="true">↗</span>
+    </a>
+
+    <a href="https://www.asus.com/es/displays-desktops/monitors/eye-care/va27aq/techspec/" target="_blank" rel="noopener noreferrer">
+      <span>ASUS · Especificaciones VA27AQ</span><span aria-hidden="true">↗</span>
+    </a>
+  </div>
+            </div>
+            <footer class="report-footer">
+              <span>CONSULTORÍA DE HARDWARE PARA EDICIÓN Y 3D</span>
+              <span>Documento académico · Los precios se verifican en la tienda antes de la compra.</span>
+            </footer>
+          </section>
+
+    </body></html>
