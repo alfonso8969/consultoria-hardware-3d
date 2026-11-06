@@ -1,1 +1,1 @@
-// app
+console.log("TFG Dashboard");
